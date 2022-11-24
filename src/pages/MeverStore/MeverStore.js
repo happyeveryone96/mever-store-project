@@ -1,12 +1,12 @@
 import React from "react";
-import CustomerSupportButton from "../../components/CustomerSupportButton/CustomerSupportButton";
 import Header from "../../components/Header/Header";
+import MainContent from "../../components/MainContent/MainContent";
 
 function MeverStore() {
   return (
     <>
       <Header />
-      <CustomerSupportButton />
+      <MainContent />
     </>
   );
 }
