@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
+import MeverStore from "./pages/MeverStore/MeverStore";
 import reportWebVitals from "./reportWebVitals";
+import "./styles/reset.scss";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <MeverStore />
   </React.StrictMode>
 );
 
